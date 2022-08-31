@@ -14,7 +14,7 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background:rgb(85, 73, 148);
+    background:rgb(166, 108, 255);
     z-index: 999;
     display: flex;
     justify-content: center;
@@ -26,7 +26,7 @@ body {
     width:50px;
     height:50px;
     border:12px solid #fff;
-    border-bottom:12px solid rgb(85, 73, 148);
+    border-bottom:12px solid rgb(166, 108, 255);
     border-radius:50%;
     margin:0;
 }
@@ -47,10 +47,10 @@ body {
     display:inline-block;
 }
 .box1 {
-    background:rgb(85, 73, 148);
+    background:rgb(166, 108, 255);
 }
 .box2 {
-    background:rgb(85, 73, 148);
+    background:rgb(166, 108, 255);
     margin-left:-5px;
 }
 #menu {
@@ -80,7 +80,7 @@ body {
 }
 #middle h1 {
     margin: 0;
-    color:rgb(85, 73, 148);
+    color:rgb(166, 108, 255);
     font-size:70px;
     text-decoration:none;
     backdrop-filter: blur(2px);
@@ -139,15 +139,15 @@ body {
     border-radius:100px 100px 0px 0px;
 }
 #about:hover {
-    background:rgb(85, 73, 148, 0.9);
+    background:rgb(166, 108, 255, 0.9);
     cursor:pointer;
 }
 #work:hover {
-    background:rgb(85, 73, 148, 0.9);
+    background:rgb(166, 108, 255, 0.9);
     cursor:pointer;
 }
 #contact:hover {
-    background:rgb(85, 73, 148, 0.9);
+    background:rgb(166, 108, 255, 0.9);
     cursor:pointer;
 }
 #middle table {
@@ -173,7 +173,7 @@ body {
     width:90vw;
     height:90vh;
     padding:5vh 5vw;
-    background:rgb(85, 73, 148);
+    background:rgb(166, 108, 255);
     color:#fff;
     z-index:9;
     position:fixed;
@@ -233,7 +233,7 @@ body {
 .btn_two {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:rgb(85, 73, 148);
+    color:rgb(166, 108, 255);
     background:#fff;
     border:3px solid #fff;
     padding:8px 40px;
@@ -297,7 +297,7 @@ body {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(85, 73, 148) ;
+    color:rgb(166, 108, 255) ;
 }
 #particles-js {
     position:fixed;
@@ -312,14 +312,14 @@ body {
     background: #fff; 
 }
 ::-webkit-scrollbar-thumb {
-    background: rgb(85, 73, 148); 
+    background: rgb(166, 108, 255); 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(85, 73, 148, 0.8); 
+    background: rgb(166, 108, 255, 0.8); 
 }
 ::selection {
 	color: #fff;
-	background: rgb(85, 73, 148);
+	background: rgb(166, 108, 255);
 }
 
 @media (max-width: 800px){ 
