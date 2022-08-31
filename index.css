@@ -79,9 +79,11 @@ body {
     padding-bottom:10vh;
 }
 #middle h1 {
+    margin: 0;
     color:rgb(255, 50, 50);
     font-size:70px;
-    text-decoration:underline;
+    text-decoration:none;
+    backdrop-filter: blur(2px);
 }
 #about {
     width:10vw;
