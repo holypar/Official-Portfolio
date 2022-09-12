@@ -112,6 +112,34 @@
             <a href="https://github.com/holypar/hexapawn"><button class="btn_two">Repo</button></a>
         </section>
 
+        <section>
+            <h2 style="font-style: italic;">Breadwinners Bot</h2>
+            
+            <p> </p>
+            <p>Programmed a bot using Python for my stocks community Discord server which has guided over 2200 active members on achieving winning trades
+            </p> 
+            <p>Enabled extraction of real time stock ticker prices using the Yahoo Finance API which alerted users to buy or sell a stock based on multiple time frames</p> 
+            <p>Scraped analyst price targets from various sources to assist users on understanding the potential price for a certain stock over a 12 month time frame </p>
+            <div id="used">
+                <div><i class="fa fa-solid fa-circle"></i>&nbsp;Python</div>
+                <div><i class="fa fa-solid fa-circle"></i>&nbsp;Discord.py</div>
+                <div><i class="fa fa-solid fa-circle"></i>&nbsp;BeautifulSoup</div>
+                <div><i class="fa fa-solid fa-circle"></i>&nbsp;Yahoo Finance API</div>
+            </div>
+        </section>
+
+        <section>
+            <h2 style="font-style: italic;">User Level Thread Library</h2>
+            
+            <p>Doubly linked list based implementation of a queue </p>
+            <p>Consists of a scheduler just that has working preemption, a ready queue, zombie queue, and blocked queue.</p> 
+            <p>Fully working thread join function which has two scenarios.The first scenario is that we find the function given tid in the zombie queue using queue_iterate, it collects the return value, deletes that thread from the queue, and frees the thread using our helper function freeThread which basically frees the context of the thread, destroys the stackm, and then finally frees the thread.  </p> 
+            <p>The second scenario is that the tid we are looking for was not found in the zombie queue meaning that process is not fished AKA it is in the ready queue. Then what happens is that the current thread becomes in the BLOCK state and we set its dependency to the tid given. From there we enqueue the active thread to the back of the blocking queue and schedule the next available ready thread to run. The next time it is the blocked process' time to run it will check the zombie queue for its dependency and collect its return value and do the same process as the first scenario for freeing the thread. </p>
+            <div id="used">
+                <div><i class="fa fa-solid fa-circle"></i>&nbsp;C</div>
+            </div>
+            <a href="https://github.com/holypar/User-Level-Thread-Library"><button class="btn_two">Repo</button></a>
+        </section>
     </div>
     <div id="about_container" class="container">
             <div onclick="closeabout()"><i class="fa fa-solid fa-angle-left"></i></div>
